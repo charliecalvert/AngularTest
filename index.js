@@ -3,7 +3,7 @@
  */
 
 function MyController($scope) {
-    $scope.hint = "This is my hint";
+    $scope.hint = "Enter a number of miles";
     
     $scope.miles = 0;
     

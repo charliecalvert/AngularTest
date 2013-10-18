@@ -12,7 +12,7 @@ describe("mycontrollertest", function() {'use strict';
     }));
 
     it("Test hint", function() {
-        expect($mockScope.hint).toEqual("This is my hint");
+        expect($mockScope.hint).toEqual("Enter a number of miles");
     });
     
     it("TestMilesToFeetForOneMile", function() {
